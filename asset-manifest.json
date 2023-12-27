@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/http//damsonst.github.io/image-gen-react-ui/static/css/main.c653af79.css",
-    "main.js": "/http//damsonst.github.io/image-gen-react-ui/static/js/main.f8ddd3b8.js",
-    "static/js/787.22c7b6d8.chunk.js": "/http//damsonst.github.io/image-gen-react-ui/static/js/787.22c7b6d8.chunk.js",
-    "index.html": "/http//damsonst.github.io/image-gen-react-ui/index.html",
-    "main.c653af79.css.map": "/http//damsonst.github.io/image-gen-react-ui/static/css/main.c653af79.css.map",
-    "main.f8ddd3b8.js.map": "/http//damsonst.github.io/image-gen-react-ui/static/js/main.f8ddd3b8.js.map",
-    "787.22c7b6d8.chunk.js.map": "/http//damsonst.github.io/image-gen-react-ui/static/js/787.22c7b6d8.chunk.js.map"
+    "main.css": "/image-gen-react-ui/static/css/main.c653af79.css",
+    "main.js": "/image-gen-react-ui/static/js/main.e0a9cdce.js",
+    "static/js/787.22c7b6d8.chunk.js": "/image-gen-react-ui/static/js/787.22c7b6d8.chunk.js",
+    "index.html": "/image-gen-react-ui/index.html",
+    "main.c653af79.css.map": "/image-gen-react-ui/static/css/main.c653af79.css.map",
+    "main.e0a9cdce.js.map": "/image-gen-react-ui/static/js/main.e0a9cdce.js.map",
+    "787.22c7b6d8.chunk.js.map": "/image-gen-react-ui/static/js/787.22c7b6d8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c653af79.css",
-    "static/js/main.f8ddd3b8.js"
+    "static/js/main.e0a9cdce.js"
   ]
 }
