@@ -46,14 +46,8 @@ function DrawingTools ( {onClearCanvas, currentColor, setCurrentColor, bgColor, 
   
     return (
     <div className="drawing-tools-container">
-    {paletteMode && <SketchPicker
-        color={ currentColor }
-        onChangeComplete={ handleChangeComplete }
-      />}
-    {backgroundColorMode && <SketchPicker
-        color={ bgColor }
-        onChangeComplete={ handleBgColorChangeComplete }
-      />}
+    
+    
 
 
     {/*paletteMode && <ColorPicker
@@ -67,15 +61,23 @@ function DrawingTools ( {onClearCanvas, currentColor, setCurrentColor, bgColor, 
       <button className="tools-button" onClick={() => { }}>
         Paint
       </button>
-      <button className="tools-button" onClick={() => { handleClearCanvas() }}>
+      <button className="tools-button" onClick={() => { }}>
         Erase
       </button> 
       <button className="tools-button" onClick={() => { setPaletteMode(!paletteMode) }}>
         Palette
-      </button> 
+      </button>
+      {paletteMode && <SketchPicker
+        color={ currentColor }
+        onChangeComplete={ handleChangeComplete }
+      />} 
       <button className="tools-button" onClick={() => { setBackgroundColorMode(!backgroundColorMode) }}>
         Back Color
       </button>
+      {backgroundColorMode && <SketchPicker
+        color={ bgColor }
+        onChangeComplete={ handleBgColorChangeComplete }
+      />}
       <button className="tools-button" onClick={() => { handleClearCanvas() }}>
         Clear Canvas
       </button>   
