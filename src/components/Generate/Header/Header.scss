@@ -1,0 +1,52 @@
+@import 'src/_library.scss';
+
+.header {
+  background-color: $header-color;
+  color: $primary-text-color;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  gap: 1rem;
+}
+
+nav a {
+  color: $secondary-text-color;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  transition: background-color 0.2s ease-in-out;
+
+  &:hover {
+    background-color: rgba($secondary-color, 0.1);
+  }
+}
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .logoText {
+    font-weight: bold;
+    color: $primary-text-color;
+  }
+  
+  .logoIcon {
+    font-family: sans-serif;
+    font-size: 2rem;
+    background-color: $primary-color;
+    color: $primary-text-color;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+  }

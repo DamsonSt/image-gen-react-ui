@@ -1,0 +1,34 @@
+@import 'src/_library.scss';
+
+
+
+.canvas-container {
+    background-color: $container-color;
+    // width: 100%;
+    // height: 512px; /* Set height to fill the entire screen */
+    width: 100%; /* Viewport width */
+    height: auto; /* Viewport height */
+    max-width: 100vh; /* Set a maximum width based on viewport height */
+    max-height: 100vw; /* Set a maximum height based on viewport width */
+    margin: auto;
+    position: relative;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-end; // Align to the right
+    align-items: center; // Center vertically
+
+
+    .canvas{
+        background-color: $secondary-color;
+        aspect-ratio: 1 / 1;
+        width: 100%; /* Viewport width */
+        height: 100%; /* Viewport height */
+        margin: auto;
+        overflow: hidden;
+        display: flex;
+        
+        flex-direction: column;
+        align-items: center; // Center horizontally within the placeholder
+        justify-content: center; // Center vertically within the placeholder
+    }
+}
