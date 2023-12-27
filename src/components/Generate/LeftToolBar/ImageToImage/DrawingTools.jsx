@@ -79,7 +79,7 @@ function DrawingTools ( {onClearCanvas, currentColor, setCurrentColor, bgColor, 
       <button className="tools-button" onClick={() => { handleClearCanvas() }}>
         Clear Canvas
       </button>   
-      <div style={{ marginTop: '20px', color: "white" }}>Selected Color: {color} {currentColor}</div>
+      {/* {<div style={{ marginTop: '20px', color: "white" }}>Selected Color: {color} {currentColor}</div>} */}
     </div>
   );
 };

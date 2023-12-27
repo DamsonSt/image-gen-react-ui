@@ -53,11 +53,10 @@ const Tools = ({ textToImage, setTextToImage,currentColor, setCurrentColor, bgCo
             setCurrentColor = {setCurrentColor}
             bgColor={bgColor}
             setBgColor={setBgColor}
-            />} // Pass handleColorChange to DrawingTools
+            />}
         
-        <div style={{ marginTop: '20px' }}>Selected Color: {currentColor}</div>
       </div>
-      {/* {showImgToImgButton && <BlankButton />} */}
+      {/* <div style={{ marginTop: '20px' }}>Selected Color: {currentColor}</div> {showImgToImgButton && <BlankButton />} */}
       {/* Add your other tool components here ... */}
     </div>
   );
