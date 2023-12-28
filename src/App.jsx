@@ -35,7 +35,7 @@ function App() {
   const generateImage = () => {
     const url = textToImage
       ? 'https://possible-imp-grossly.ngrok-free.app/generate_image_to_image'
-      : 'https://possible-imp-grossly.ngrok-free.app/generate_image';
+      : 'https://python-fleet-literally.ngrok-free.app/generate_image';
   
     setLoading(true);
   
